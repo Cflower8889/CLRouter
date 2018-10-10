@@ -1,0 +1,6 @@
+framework module Pods_CLRouter_Example {
+  umbrella header "Pods-CLRouter_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

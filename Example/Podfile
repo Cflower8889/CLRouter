@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CLRouter_Example' do
+  pod 'CLRouter', :path => '../'
+
+  target 'CLRouter_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
